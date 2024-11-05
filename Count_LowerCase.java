@@ -1,6 +1,25 @@
 /* Find number of lower case in a string
  * AriJIt = 3
  */
+/*import java.util.*;
+public class countLowerUpperCase {
+public static void main(String args[]) {
+	Scanner sc=new Scanner(System.in);
+	int lowercount=0;
+	int uppercount=0;
+	String str=sc.nextLine();
+	for(int i=0;i<str.length();i++) {
+		if(str.charAt(i)>='a' && str.charAt(i)<='z')
+			lowercount++;
+		else if(str.charAt(i)>='A' && str.charAt(i)<='Z')
+			uppercount++;
+	}
+	System.out.println(lowercount);
+	System.out.println(uppercount);
+	
+}
+}
+*/
 
 import java.util.*;
 public class Count_LowerCase {
